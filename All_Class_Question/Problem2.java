@@ -1,9 +1,11 @@
+// WAP to find largest and Smallest value in any array by using 1D.
+
 import java.util.Scanner;
 
 public class Problem2 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter size of array");
+        System.out.print("Enter size of array :");
         int size = sc.nextInt();
         int array[] = new int[size];
         for(int i=0;i<size;i++){
