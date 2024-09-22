@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Problem5 {
+public class Addition_2_Matrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // Asking user to enter row and column
@@ -39,14 +39,32 @@ public class Problem5 {
             }
             System.out.println();
         }
+        // printing matix 1
+        System.out.println("Matrix 1 :");
+        for (int i = 0; i < row; i++) { // row
+            for (int j = 0; j < col; j++) { // column
+                System.out.print(matrix1[i][j]+" ");
+            }
+            System.out.println();
+        }
+        // printing matrix 2
+        System.out.println("Matrix 2 :");
+        for (int i = 0; i < row; i++) { // row
+            for (int j = 0; j < col; j++) { // column
+                System.out.print(matrix2[i][j]+" ");
+            }
+            System.out.println();
+        }
 
         // printing Sum of matrices
+        System.out.println("Sum of two Matrix :");
         for (int i = 0; i < row; i++) { // row
             for (int j = 0; j < col; j++) { // column
                 System.out.print(sum_matrix[i][j]+" ");
             }
             System.out.println();
         }
+
         sc.close();
     }
 }

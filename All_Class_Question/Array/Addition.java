@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Problem3 {
+public class Addition {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int add[] = new int[6];

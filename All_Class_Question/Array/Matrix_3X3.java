@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Problem4 {
+public class Matrix_3X3 {
     public static void main(String[] args){
         Scanner sc = new  Scanner(System.in);
 
