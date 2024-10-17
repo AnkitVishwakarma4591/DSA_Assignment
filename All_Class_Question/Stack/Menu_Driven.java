@@ -20,7 +20,7 @@ public class Menu_Driven {
             System.out.print("Enter you Choice : ");
             choice = sc.nextInt();
             switch(choice){
-                case 1 : System.out.println("Enter the element to push :");
+                case 1 : System.out.print("Enter the element to push :");
                             int element = sc.nextInt();
                             stack1.push(element);
                             System.out.println("Element "+element+" added to the stack");
@@ -38,11 +38,12 @@ public class Menu_Driven {
                         }
                         break;
                 case 4 : System.out.println("Exiting Program");
+                            break;
 
                 default : System.out.println("Invail Choice please try again");
+                            break;
             }
         }while(choice != 4);
-
         sc.close();
     }
 }
